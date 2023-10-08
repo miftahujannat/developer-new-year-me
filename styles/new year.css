@@ -18,10 +18,12 @@
 .banner-area{
     display: flex;
     justify-content: end;
+    text-align: right;
 }
 .banner{
-    padding: 300px 0;
-    width: 50%;
+    padding: 20vh 0;
+    width: 25%;
+    margin-right: 50px;
    
 }
 .banner-title{
@@ -29,7 +31,6 @@
     font-weight: 5px;
     margin-top: 20px;
     padding: 20px 0;
-    padding-right: 100px;
 
 }
 .banner-sub-title{
