@@ -90,3 +90,11 @@
     padding: 20px;
     padding-right: 50%;
 }
+
+/*section styles*/
+.section-title{
+    margin-top: 10%;
+    font-size: 70px;
+    font-weight: 20px;
+    text-align: center;
+}
