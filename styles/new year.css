@@ -4,11 +4,29 @@
 }
 .btn-primary{
     background-color: tomato;
-    font-size: 20px;
+    font-size: 40px;
     font-weight: 10px;
 }
 .header{
-    background-image:linear-gradient(0deg, rgba(5, 5, 5, 0.572), rgba(0, 0, 0, 0.109)), url('../images/banner/banner1.png');
+    
+    background-image:linear-gradient(0deg, rgba(41, 44, 44, 0.966), rgba(255, 246, 246, 0.109)), url('../images/banner/banner1.png');
+    background-size: cover; 
+}
+.btn-primari{
+    background-color: azure;
+    color: tomato;
+    font-size: 50px;
+    font-weight: 30px;
+    margin-top: 10%;
+    
+}
+.btn-primarri{
+    background-color: tomato;
+    font-size: 40px;
+    font-weight: 10px;
+}
+.sub-header{
+    background-image:linear-gradient(0deg, rgba(41, 44, 44, 0.966), rgba(255, 246, 246, 0.109)), url('../images/banner/banner2.png');
     background-size: cover;
    
     
@@ -21,23 +39,25 @@
     text-align: right;
 }
 .banner{
-    padding: 20vh 0;
+    padding: 10vh 0;
     width: 25%;
     margin-right: 50px;
    
 }
 .banner-title{
-    font-size: 50px;
+    font-size: 90px;
     font-weight: 5px;
     margin-top: 20px;
     padding: 20px 0;
 
 }
 .banner-sub-title{
-    font-size: 20px;
+    font-size: 40px;
     font-weight: 10px;
     padding: 40px  0;
 }
+
+
 /*deta stylrs*/
 .deta-container{
     display: flex;
@@ -92,13 +112,142 @@
     padding-right: 50%;
 }
 
+
+
 /*section styles*/
 .section-title{
     margin-top: 10%;
     font-size: 70px;
     font-weight: 20px;
     text-align: center;
+    justify-items: center;
+    margin-top: 100px; 
+}
+/*skills styles*/
+.skills-container{
+    display: flex;
+    margin-top: 10%;
+    gap:30px;  
 }
 .skill-title{
+    font-size: 40px;
+    font-weight: 10px;
+    margin-top: 30px;
+
+}
+.skill-description{
+    font-size: 25px;
+    font-weight: 10px;
+    padding: 10px;
+}
+.skill{
+    padding-left: 8%;
+    gap:50%;
+}
+
+
+/*section styles*/
+.section-title{
+    font-size: 40px;
+    font-weight: 20px;
+    padding: 10px;
+    
+}
+.section-alain{
+    font-size: 30px;
+    font-weight: 10px;
+   
+    
+    
+}
+.section{
+    text-align: center;
+    padding-right: 10%;
+}
+.home{
+    background-image:linear-gradient(0deg, rgba(5, 5, 5, 0.572), rgba(0, 0, 0, 0.109)), url('../images/watch.png');
+    background-size: cover;
+    padding: 10% 20%;
+    
+    
+}
+/*meta styles*/
+.lavel{
+    margin-top: 20%;
     display: flex;
+   
+   
+}
+.meta{
+    background-color: black;
+    padding: 20px;
+    padding-right: 30px;
+}
+.meta-title{
+    color: azure;
+    font-size: 60px;
+    font-weight: 10px;
+    padding: 50px;
+}
+.meta-alain{
+    color: azure;
+    font-size: 30px;
+    font-weight: 10px;
+    padding: 20px;
+    padding-right: 50%;
+}
+.meta-contact{
+    color: azure;
+    font-size: 30px;
+    font-weight: 10px;
+    padding: 20px;
+}
+.meta-sub{
+    color: azure;
+    font-size: 30px;
+    font-weight: 10px;
+    padding: 20px;
+}
+.meta-top{
+   
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.meta-tab{
+    
+    color: azure;
+    font-size: 60px;
+    font-weight: 10px;
+    padding: 50px;
+    margin-right: 20px;
+    
+   
+}
+.meta-design{
+    font-size: 30px;
+}
+
+/* sub styles */
+.sub-area{
+    display: flex;
+    justify-content: end;
+    text-align: right;
+}
+.sub-section{
+    padding: 10vh 0;
+    width: 25%;
+    margin-right: 50px;
+   
+}
+.sub-title{
+    font-size: 90px;
+    font-weight: 5px;
+    margin-top: 20px;
+    padding: 20px 0;
+
+}
+.sub-sab-title{
+    font-size: 40px;
+    font-weight: 10px;
+    padding: 40px  0;
 }
