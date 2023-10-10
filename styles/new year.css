@@ -120,7 +120,6 @@
     font-size: 70px;
     font-weight: 20px;
     text-align: center;
-    justify-items: center;
     margin-top: 100px; 
 }
 /*skills styles*/
@@ -160,16 +159,21 @@
     
     
 }
-.section{
-    text-align: center;
-    padding-right: 10%;
-}
+
 .home{
-    background-image:linear-gradient(0deg, rgba(5, 5, 5, 0.572), rgba(0, 0, 0, 0.109)), url('../images/watch.png');
+    background-image:linear-gradient(50deg, rgba(255, 150, 4, 0.572), rgba(255, 48, 48, 0.033)), url('../images/watch.png');
     background-size: cover;
-    padding: 10% 20%;
-    
-    
+    padding: 90px 50px;
+    margin: 50px 100px;
+}
+
+
+.mineset-area{
+    text-align: left;
+}
+
+.mindset{
+    margin: 50px 100px;
 }
 /*meta styles*/
 .lavel{
