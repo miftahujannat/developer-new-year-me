@@ -60,28 +60,30 @@
 
 /*deta stylrs*/
 .deta-container{
+   
     display: flex;
     margin-top: 20%;
     padding: 100px;
     padding-left: 10%;
     
 }
+    
+
 .deta-title{
     margin-top: 15%;
     font-size: 60px;
     font-weight: 20px;
     text-align: center;
     padding: 20px;
-    padding-right: 10%;
+    padding-right: 20%;
    
 }
 .deta-sub-title{
     font-size: 25px;
     font-weight: 10px;
     text-align: center;
-    padding: 20px;
-    padding-right: 10%;
-   
+    padding: 10px;
+    padding-right: 20%;
 }
 .deta-top{
     font-size: 20px;
@@ -146,6 +148,8 @@
 }
 
 
+
+
 /*section styles*/
 .section-title{
     font-size: 40px;
@@ -188,6 +192,7 @@
     font-size: 60px;
     font-weight: 10px;
     padding: 50px;
+    padding-left: 10%;
 }
 .meta-alain{
     color: azure;
@@ -195,31 +200,36 @@
     font-weight: 10px;
     padding: 20px;
     padding-right: 50%;
+    padding-left: 10%;
 }
 .meta-contact{
     color: azure;
     font-size: 30px;
     font-weight: 10px;
     padding: 20px;
+    padding-left: 10%;
 }
 .meta-sub{
     color: azure;
     font-size: 30px;
     font-weight: 10px;
     padding: 20px;
+    padding-left: 10%;
 }
 .meta-top{
    
     padding: 30px;
     margin-bottom: 20px;
+    padding-left: 10%;
+    gap: 0px 10px;
 }
 .meta-tab{
     
     color: azure;
     font-size: 60px;
     font-weight: 10px;
-    padding: 50px;
-    margin-right: 20px;
+    padding: 10px;
+
     
    
 }
@@ -234,13 +244,13 @@
     text-align: right;
 }
 .sub-section{
-    padding: 10vh 0;
+    padding: 20vh 0;
     width: 25%;
     margin-right: 50px;
    
 }
 .sub-title{
-    font-size: 90px;
+    font-size: 60px;
     font-weight: 5px;
     margin-top: 20px;
     padding: 20px 0;
@@ -251,3 +261,4 @@
     font-weight: 10px;
     padding: 40px  0;
 }
+/* set styles */
