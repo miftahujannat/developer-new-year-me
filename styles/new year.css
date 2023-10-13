@@ -9,7 +9,7 @@
 }
 .header{
     
-    background-image:linear-gradient(0deg, rgba(41, 44, 44, 0.966), rgba(255, 246, 246, 0.109)), url('../images/banner/banner1.png');
+    background-image:linear-gradient(0deg, rgba(174, 177, 177, 0.966), rgba(44, 42, 42, 0.109)), url('../images/banner/banner1.png');
     background-size: cover; 
 }
 .btn-primari{
@@ -65,10 +65,7 @@
     margin-top: 20%;
     padding: 100px;
     padding-left: 10%;
-    
 }
-    
-
 .deta-title{
     margin-top: 15%;
     font-size: 60px;
@@ -114,8 +111,6 @@
     padding-right: 50%;
 }
 
-
-
 /*section styles*/
 .section-title{
     margin-top: 10%;
@@ -147,44 +142,36 @@
 }
 
 
-
-
 /*section styles*/
 .section-title{
-    font-size: 40px;
-    font-weight: 20px;
-    padding: 10px;
-    
+    color: azure;
+    font-size: 60px;
+    font-weight: 30px;
+    padding: 10px;   
 }
 .section-alain{
     font-size: 30px;
-    font-weight: 10px;
-   
-    
-    
+    font-weight: 10px; 
+    color: tomato;
+    padding: 10px;    
 }
-
 .home{
-    background-image:linear-gradient(50deg, rgba(255, 150, 4, 0.572), rgba(255, 48, 48, 0.033)), url('../images/watch.png');
+    background-image:linear-gradient(50deg, rgba(255, 63, 4, 0.572), rgba(255, 48, 48, 0.033)), url('../images/watch.png');
     background-size: cover;
-    padding: 90px 50px;
-    margin: 50px 100px;
+    padding: 50px 20px;
+    margin: 250px 300px;
 }
-
-
 .mineset-area{
     text-align: left;
 }
-
 .mindset{
     margin: 50px 100px;
 }
+
 /*meta styles*/
 .lavel{
     margin-top: 20%;
     display: flex;
-   
-   
 }
 .meta{
     background-color: black;
@@ -232,10 +219,7 @@
     color: azure;
     font-size: 60px;
     font-weight: 10px;
-    padding: 10px;
-
-    
-   
+    padding: 10px;  
 }
 .meta-design{
     font-size: 30px;
@@ -250,15 +234,13 @@
 .sub-section{
     padding: 20vh 0;
     width: 25%;
-    margin-right: 50px;
-   
+    margin-right: 50px; 
 }
 .sub-title{
     font-size: 60px;
     font-weight: 5px;
     margin-top: 20px;
     padding: 20px 0;
-
 }
 .sub-sab-title{
     font-size: 40px;
@@ -266,3 +248,363 @@
     padding: 40px  0;
 }
 /* set styles */
+.set-container{
+    display: flex;
+}
+.set{
+    padding-left: 100px;
+}
+.set-title{
+    font-size: 70px;
+    font-weight: 20px;
+    margin-top: 200px;
+    padding: 10px;
+    padding-left: 70px;
+   
+}
+.set-sub-title{
+    font-size: 30px;
+    font-weight: 20px;
+    padding: 10px;
+    padding-left: 70px;
+   
+}
+.set-top{
+    font-size: 20px;
+    font-weight: 10px;
+    padding: 10px;
+    padding-left: 70px;
+   
+}
+.set-seb{
+    font-size: 20px;
+    font-weight: 10px;
+    padding: 10px;
+    padding-left: 70px;
+}
+.set-taf{
+    font-size: 20px;
+    font-weight: 10px;
+    padding: 10px;
+    padding-left: 70px;
+}
+.set-tit{
+    font-size: 20px;
+    font-weight: 10px;
+    padding: 10px;
+    padding-left: 70px;
+}
+/* mean styles */
+.sab-title{
+    margin-top: 200px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 10px;
+    padding: 100px;
+}
+.means-container{
+    display: flex;
+    padding-left: 50px;
+    padding: 10px;
+}
+
+.mean-title{
+    font-size: 40px;
+    font-weight: 10px;
+    padding: 10px;
+    
+}
+.mean-description{
+    font-size: 25px;
+    font-weight: 10px;
+    padding: 10px;
+}
+.mean{
+    padding-left: 8%;
+    gap:50%;
+}
+/* hom styles */
+
+.hom-title{
+    color: azure;
+    font-size: 60px;
+    font-weight: 30px;
+    padding: 10px;   
+}
+.hom-alain{
+    font-size: 30px;
+    font-weight: 10px; 
+    color: tomato;
+    padding: 10px;    
+}
+.hom{
+    background-image:linear-gradient(50deg, rgba(255, 63, 4, 0.572), rgba(255, 48, 48, 0.033)), url('../images/watch.png');
+    background-size: cover;
+    padding: 50px 20px;
+    margin: 250px 300px;
+}
+.mineset-area{
+    text-align: left;
+}
+.mindset{
+    margin: 50px 100px;
+}
+
+
+/* mat styles */
+.desing{
+    display: flex;
+    margin-top: 200px;
+    background-color: black;
+    padding: 50px;
+}
+
+.mat-title{
+    color: azure;
+    font-size: 50px;
+    font-weight: 20px;
+    padding: 10px;
+    padding-left: 200px;
+}
+.mat-alain{
+    color: azure;
+    font-size: 30px;
+    font-weight: 10px;
+    padding: 10px;
+    padding-left: 200px;
+}
+.mat-contact{
+    color: azure;
+    font-size: 25px;
+    font-weight: 10px;
+    padding: 10px;
+    padding-left: 200px;
+}
+.mat-sub{
+    color: azure;
+    font-size: 25px;
+    font-weight: 10px;
+    padding: 10px;
+    padding-left: 200px
+}
+.mat-top{
+    padding: 10px;
+    padding-left: 200px
+}
+.mat{
+    padding-right: 250px;
+}
+.mat-tab{
+    color: azure;
+    font-size: 50px;
+    font-weight: 20px;
+    padding: 10px;
+    padding-right: 50px;
+}
+.mat-desing{
+    padding: 10px;
+}
+.btn-primarry{
+    color: tomato;
+    font-size: 40px;
+    font-weight: 10px;
+    padding: 10px;
+}
+/* ban styles */
+.ban-area{
+    display: flex;
+    justify-content: end;
+    text-align: right;
+   
+}
+.ban{
+    padding: 3vh 0;
+    width: 25%;
+    margin-right: 50px;
+   
+}
+.ban-title{
+    color: azure;
+    font-size: 90px;
+    font-weight: 5px;
+    margin-top: 20px;
+    padding: 20px 0px;
+
+}
+.ban-sub-title{
+    color: azure;
+    font-size: 40px;
+    font-weight: 10px;
+    padding: 40px  0;
+}
+.btn-primaryr{
+    color: blue;
+    font-size: 50px;
+    font-weight: 30px;
+    margin-top: 10%;
+}
+.ban-section{
+    background-image:linear-gradient(0deg, rgba(56, 59, 59, 0.966), rgba(241, 245, 248, 0.109)), url('../images/banner/banner3.png');
+    background-size: cover; 
+}
+/* fect styles */
+.fect-container{
+    display: flex;
+}
+.fect{
+    padding-left: 100px;
+}
+.fect-title{
+    font-size: 70px;
+    font-weight: 20px;
+    margin-top: 200px;
+    padding: 10px;
+    padding-left: 70px;
+   
+}
+.fect-sub-title{
+    font-size: 30px;
+    font-weight: 20px;
+    padding: 10px;
+    padding-left: 70px;
+   
+}
+.fect-top{
+    font-size: 20px;
+    font-weight: 10px;
+    padding: 10px;
+    padding-left: 70px;
+   
+}
+.fect-seb{
+    font-size: 20px;
+    font-weight: 10px;
+    padding: 10px;
+    padding-left: 70px;
+}
+.fect-taf{
+    font-size: 20px;
+    font-weight: 10px;
+    padding: 10px;
+    padding-left: 70px;
+}
+.fect-tit{
+    font-size: 20px;
+    font-weight: 10px;
+    padding: 10px;
+    padding-left: 70px;
+}
+/* contain styles */
+.had-title{
+    margin-top: 200px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 10px;
+    padding: 100px;
+}
+.heads-container{
+    display: flex;
+    padding-left: 50px;
+    padding: 10px;
+}
+
+.head-title{
+    font-size: 40px;
+    font-weight: 10px;
+    padding: 10px;
+    
+}
+.head-description{
+    font-size: 25px;
+    font-weight: 10px;
+    padding: 10px;
+}
+.head{
+    padding-left: 8%;
+    gap:50%;
+}
+/* skil styles */
+.skil-title{
+    color: azure;
+    font-size: 60px;
+    font-weight: 30px;
+    padding: 10px;   
+}
+.skil-alain{
+    font-size: 30px;
+    font-weight: 10px; 
+    color: blue;
+    padding: 10px;    
+}
+.skil{
+    background-image:linear-gradient(50deg, rgba(14, 106, 211, 0.572), rgba(255, 48, 48, 0.033)), url('../images/watch.png');
+    background-size: cover;
+    padding: 50px 20px;
+    margin: 250px 300px;
+}
+.mineset-area{
+    text-align: left;
+}
+.mindset{
+    margin: 50px 100px;
+}
+/* saction styles */
+.style{
+    display: flex;
+    margin-top: 200px;
+    background-color: black;
+    padding: 50px;
+}
+
+.saction-title{
+    color: azure;
+    font-size: 50px;
+    font-weight: 20px;
+    padding: 10px;
+    padding-left: 200px;
+}
+.saction-alain{
+    color: azure;
+    font-size: 30px;
+    font-weight: 10px;
+    padding: 10px;
+    padding-left: 200px;
+}
+.saction-contact{
+    color: azure;
+    font-size: 25px;
+    font-weight: 10px;
+    padding: 10px;
+    padding-left: 200px;
+}
+.saction-sub{
+    color: azure;
+    font-size: 25px;
+    font-weight: 10px;
+    padding: 10px;
+    padding-left: 200px
+}
+.saction-top{
+    padding: 10px;
+    padding-left: 200px
+}
+.saction{
+    padding-right: 250px;
+}
+.saction-tab{
+    color: azure;
+    font-size: 50px;
+    font-weight: 20px;
+    padding: 10px;
+    padding-right: 50px;
+}
+.saction-desing{
+    padding: 10px;
+}
+.btn-premary{
+    background-color: blue;
+    color: white;
+    font-size: 40px;
+    font-weight: 10px;
+    padding: 10px;
+}
